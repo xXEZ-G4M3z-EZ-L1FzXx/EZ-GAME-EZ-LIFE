@@ -1,0 +1,903 @@
+﻿Log file open, 04/24/15 15:20:09
+LogInit:Display: Running engine for game: EZ_GAME_EZ_LIFE
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.24-13.20.09:984][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.24-13.20.10:058][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.24-13.20.10:158][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.24-13.20.10:380][  0]LogInit: Object subsystem initialized
+[2015.04.24-13.20.10:663][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.24-13.20.10:663][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.24-13.20.10:664][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.24-13.20.10:664][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.24-13.20.10:664][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.24-13.20.10:664][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.24-13.20.10:707][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.24-13.20.10:708][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.24-13.20.10:892][  0]LogInit: Computer: NIK-PC
+[2015.04.24-13.20.10:892][  0]LogInit: User: Niklas
+[2015.04.24-13.20.10:892][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.24-13.20.10:892][  0]LogInit: High frequency timer resolution =3.215390 MHz
+[2015.04.24-13.20.10:893][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.04.24-13.20.10:893][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.24-13.20.10:893][  0]LogMemory: Process Physical Memory: 47.63 MB used, 47.63 MB peak
+[2015.04.24-13.20.10:893][  0]LogMemory: Process Virtual Memory: 27.81 MB used, 27.81 MB peak
+[2015.04.24-13.20.10:893][  0]LogMemory: Physical Memory: 3997.09 MB used, 8153.19 MB total
+[2015.04.24-13.20.10:893][  0]LogMemory: Virtual Memory: 281.21 MB used, 8388608.00 MB total
+[2015.04.24-13.20.11:260][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTS 450 (Feature Level 11_0)
+[2015.04.24-13.20.11:260][  0]LogD3D11RHI: Adapter has 993MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2015.04.24-13.20.11:260][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.24-13.20.11:284][  0]LogRHI: Texture pool is 695 MB (70% of 993 MB)
+[2015.04.24-13.20.11:299][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.24-13.20.13:215][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.24-13.20.13:480][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.24-13.20.13:480][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.24-13.20.13:594][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.24-13.20.24:082][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-13.20.25:190][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-13.20.25:314][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.24-13.20.25:752][  0]LogDerivedDataCache: Loaded boot cache 0.44s 39MB C:/Users/Niklas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.24-13.20.25:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Niklas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.24-13.20.25:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.24-13.20.25:752][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.24-13.20.25:935][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.24-13.20.25:965][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Niklas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.24-13.20.34:876][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.24-13.20.34:876][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.24-13.20.39:331][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.24-13.20.39:727][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.24-13.21.04:432][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.24-13.21.06:115][  0]SourceControl: Info Source control is disabled
+[2015.04.24-13.21.06:151][  0]SourceControl: Info Source control is disabled
+[2015.04.24-13.21.06:151][  0]SourceControl: Info Source control is disabled
+[2015.04.24-13.21.06:152][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.24-13.21.06:152][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.24-13.21.06:186][  0]SourceControl: Info Source control is disabled
+[2015.04.24-13.21.07:857][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.04.24-13.21.07:857][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.04.24-13.21.08:477][  0]LogEngine: Initializing Engine...
+[2015.04.24-13.21.12:427][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.24-13.21.12:438][  0]LogInit: FAudioDevice initialized.
+[2015.04.24-13.21.13:033][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.21.13:275][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Niklas/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.24-13.21.13:277][  0]LogInit: Texture streaming: Enabled
+[2015.04.24-13.21.13:934][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.24-13.21.13:934][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.24-13.21.13:934][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.04.24-13.21.13:934][  0]LogAnalytics: SetUserId eb8c08b746c18b1e0499f79509028322|9d4e66c9c5234bf7ad11ebe283ab624f|6c64b6a1-ea7f-4075-beca-5e84e1118d8d
+[2015.04.24-13.21.14:400][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.24-13.21.14:917][  0]LogInit: Transaction tracking system initialized
+[2015.04.24-13.21.15:873][  0]BlueprintLog: New page: Editor Load
+[2015.04.24-13.21.16:539][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2015.04.24-13.21.16:541][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.24-13.21.18:952][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-13.21.19:415][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.24-13.21.21:311][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.24-13.21.21:312][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.24-13.21.21:489][  0]LogConsoleResponse:Display: 
+[2015.04.24-13.21.24:055][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.24-13.21.25:476][  0]SourceControl: Info Source control is disabled
+[2015.04.24-13.21.25:582][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.24-13.21.25:628][  0]LightingResults: New page: Lighting Build
+[2015.04.24-13.21.26:130][  0]MapCheck: New page: Map Check
+[2015.04.24-13.21.26:130][  0]LightingResults: New page: Lighting Build
+[2015.04.24-13.21.26:506][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001548E980
+[2015.04.24-13.21.26:894][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.24-13.21.32:057][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.24-13.21.32:995][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.21.33:031][  0]Cmd: MAP CHECKDEP
+[2015.04.24-13.21.33:076][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 24, 2015, 5:21:33 PM
+[2015.04.24-13.21.33:247][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 215.6ms to complete.
+[2015.04.24-13.21.33:247][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.673
+[2015.04.24-13.21.34:938][  0]LogCollectionManager: Loaded 0 collections in 0.001809 seconds
+[2015.04.24-13.21.34:967][  0]LogContentBrowser: Native class hierarchy populated in 0.0279 seconds. Added 1696 classes and 261 folders.
+[2015.04.24-13.21.35:290][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0066 seconds. Added 1 classes and 2 folders.
+[2015.04.24-13.21.35:932][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.24-13.21.35:996][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.24-13.21.36:041][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.24-13.21.36:122][  0]LogLoad: Full Startup: 95.42 seconds (BP compile: 1.15 seconds)
+[2015.04.24-13.21.36:594][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.04.24-13.21.37:554][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.04.24-13.21.39:333][  4]LogAssetRegistry: Asset discovery search completed in 22.8164 seconds
+[2015.04.24-13.22.01:415][ 71]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.04.24-13.22.01:415][ 71]LogSynthBenchmark:Display: ===============
+[2015.04.24-13.22.01:415][ 71]LogSynthBenchmark:Display: Main Processor:
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:          ... 0.022320 s/Run 'RayIntersect'
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:          ... 0.023671 s/Run 'Fractal'
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display: 
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   CPU Perf Index 0: 114.7
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   CPU Perf Index 1: 120.8
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:  
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display: Graphics:
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTS 450'
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.04.24-13.22.01:461][ 71]LogSynthBenchmark:Display:   GPU Memory: 994/0/3072 MB
+[2015.04.24-13.22.01:462][ 71]LogSynthBenchmark:Display:   CPUIndex: 114.7
+[2015.04.24-13.22.01:462][ 71]LogSynthBenchmark:Display:   GPUIndex: -1.$
+[2015.04.24-13.22.01:462][ 71]LogSynthBenchmark:Display: 
+[2015.04.24-13.22.01:462][ 71]LogSynthBenchmark:Display:          ... Total Time: 0.046237 sec
+[2015.04.24-13.22.22:796][191]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.22.22:812][191]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:22:22 PM)
+[2015.04.24-13.22.22:828][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015587s)
+[2015.04.24-13.22.22:829][191]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2015.04.24-13.22.22:830][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017044s)
+[2015.04.24-13.22.22:933][191]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.22.23:035][191]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.22.23:050][191]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.22.23
+[2015.04.24-13.22.23:123][191]LogWorld: Bringing up level for play took: 0.086622
+[2015.04.24-13.22.23:151][191]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.314
+[2015.04.24-13.22.33:631][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B555DA0
+[2015.04.24-13.22.40:596][746]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.22.40:596][746]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:22:40 PM)
+[2015.04.24-13.22.40:613][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016331s)
+[2015.04.24-13.22.40:613][746]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2015.04.24-13.22.40:614][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017072s)
+[2015.04.24-13.22.40:652][746]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.22.40:654][746]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.22.40:663][746]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.22.40
+[2015.04.24-13.22.40:664][746]LogWorld: Bringing up level for play took: 0.009446
+[2015.04.24-13.22.40:666][746]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.798
+[2015.04.24-13.23.15:293][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000159FD8A0
+[2015.04.24-13.23.17:985][993]Cmd: SELECT NONE
+[2015.04.24-13.23.21:096][ 86]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.04.24-13.23.21:773][ 87]Cmd: SELECT NONE
+[2015.04.24-13.23.22:383][103]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.23.22:384][103]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:23:22 PM)
+[2015.04.24-13.23.22:408][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024074s)
+[2015.04.24-13.23.22:409][103]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2015.04.24-13.23.22:409][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025200s)
+[2015.04.24-13.23.22:451][103]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.23.22:453][103]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.23.22:462][103]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.23.22
+[2015.04.24-13.23.22:463][103]LogWorld: Bringing up level for play took: 0.009261
+[2015.04.24-13.23.22:465][103]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1
+[2015.04.24-13.23.23:837][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA59580
+[2015.04.24-13.23.39:791][621]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.23.39:791][621]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:23:39 PM)
+[2015.04.24-13.23.39:825][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015305s)
+[2015.04.24-13.23.39:825][621]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2015.04.24-13.23.39:825][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016085s)
+[2015.04.24-13.23.39:861][621]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.23.39:863][621]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.23.39:872][621]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.23.39
+[2015.04.24-13.23.39:873][621]LogWorld: Bringing up level for play took: 0.009284
+[2015.04.24-13.23.39:875][621]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.41
+[2015.04.24-13.23.56:918][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E267920
+[2015.04.24-13.24.00:335][299]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2015.04.24-13.24.06:267][429]Cmd: DELETE
+[2015.04.24-13.24.06:267][429]Cmd: ACTOR DELETE
+[2015.04.24-13.24.39:612][171]Cmd: DELETE
+[2015.04.24-13.24.39:612][171]Cmd: ACTOR DELETE
+[2015.04.24-13.25.08:517][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2015.04.24-13.25.11:206][886]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2015.04.24-13.25.17:025][ 23]Cmd: DELETE
+[2015.04.24-13.25.17:025][ 23]Cmd: ACTOR DELETE
+[2015.04.24-13.25.17:026][ 23]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2015.04.24-13.25.17:104][ 23]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2015.04.24-13.25.19:576][ 98]Cmd: TRANSACTION UNDO
+[2015.04.24-13.25.19:576][ 98]LogEditorTransaction: Undo Delete Actors
+[2015.04.24-13.25.36:125][468]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.25.36:125][468]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:25:36 PM)
+[2015.04.24-13.25.36:151][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017018s)
+[2015.04.24-13.25.36:152][468]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2015.04.24-13.25.36:152][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017848s)
+[2015.04.24-13.25.36:206][468]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.25.36:208][468]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.25.36:217][468]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.25.36
+[2015.04.24-13.25.36:218][468]LogWorld: Bringing up level for play took: 0.009268
+[2015.04.24-13.25.36:220][468]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.754
+[2015.04.24-13.25.55:178][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E264720
+[2015.04.24-13.26.08:177][433]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:8627).
+[2015.04.24-13.26.16:318][691]LogSavePackage: Save=1421.938232ms
+[2015.04.24-13.26.16:318][691]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonExampleMap20A5EDBF436418C51C338290831E517C.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.24-13.26.16:373][691]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.728
+[2015.04.24-13.26.16:917][691]LogSavePackage: Save=435.422455ms
+[2015.04.24-13.26.16:917][691]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonCharacter035239C941523C3FD3C6EE89C571A7A3.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.04.24-13.26.18:950][747]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.24-13.26.18:958][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.24-13.26.18:983][747]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.24-13.26.19:190][747]LogPlayLevel: PIE:  Blueprint regeneration took 239 ms (1 blueprints)
+[2015.04.24-13.26.19:190][747]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 24, 2015, 5:26:19 PM)
+[2015.04.24-13.26.19:207][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017115s)
+[2015.04.24-13.26.19:209][747]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2015.04.24-13.26.19:209][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018716s)
+[2015.04.24-13.26.19:295][747]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.26.19:300][747]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.24-13.26.19:316][747]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.24-15.26.19
+[2015.04.24-13.26.19:318][747]LogWorld: Bringing up level for play took: 0.017276
+[2015.04.24-13.26.19:322][747]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.145
+[2015.04.24-13.26.42:890][530]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F977880
+[2015.04.24-13.27.02:697][653]LogSavePackage: Save=1378.832153ms
+[2015.04.24-13.27.02:697][653]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonExampleMap3623874842693F05E965A890C451BFDE.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.24-13.27.02:751][653]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.610
+[2015.04.24-13.27.02:752][653]LightingResults: New page: Lighting Build
+[2015.04.24-13.27.02:882][653]MapCheck: New page: Map Check
+[2015.04.24-13.27.02:882][653]LightingResults: New page: Lighting Build
+[2015.04.24-13.27.02:895][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D205580
+[2015.04.24-13.27.02:922][653]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.27.02:929][653]LoadErrors: New page: New Map
+[2015.04.24-13.27.35:032][471]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.04.24-13.28.45:779][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_45) Not registered. Aborting.
+[2015.04.24-13.28.45:780][831]LogTexture:Display: Building textures: Texture2D_3 (G8)
+[2015.04.24-13.29.00:509][249]LogTexture:Display: Building textures: Texture2D_4 (G8)
+[2015.04.24-13.29.50:117][339]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.24-13.30.12:662][311]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.04.24-13.30.28:755][  6]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.04.24-13.30.29:587][ 44]Cmd: DELETE
+[2015.04.24-13.30.29:587][ 44]Cmd: ACTOR DELETE
+[2015.04.24-13.30.29:588][ 44]LogEditorActor: Deleted Actor: SkyLight
+[2015.04.24-13.30.29:589][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.04.24-13.30.29:647][ 44]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2015.04.24-13.31.15:094][661]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.31.15:094][661]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:31:15 PM)
+[2015.04.24-13.31.15:107][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002785s)
+[2015.04.24-13.31.15:108][661]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2015.04.24-13.31.15:108][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003432s)
+[2015.04.24-13.31.15:143][661]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.31.15:145][661]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.31.15:147][661]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.31.15
+[2015.04.24-13.31.15:147][661]LogWorld: Bringing up level for play took: 0.002355
+[2015.04.24-13.31.15:224][661]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.245
+[2015.04.24-13.31.27:714][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035BA6AC0
+[2015.04.24-13.31.28:765][217]Cmd: DELETE
+[2015.04.24-13.31.28:765][217]Cmd: ACTOR DELETE
+[2015.04.24-13.31.28:765][217]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.04.24-13.31.28:795][217]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2015.04.24-13.31.35:298][436]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.31.35:298][436]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:31:35 PM)
+[2015.04.24-13.31.35:310][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003231s)
+[2015.04.24-13.31.35:310][436]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2015.04.24-13.31.35:310][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003881s)
+[2015.04.24-13.31.35:345][436]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.31.35:347][436]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.31.35:349][436]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.31.35
+[2015.04.24-13.31.35:350][436]LogWorld: Bringing up level for play took: 0.002024
+[2015.04.24-13.31.35:353][436]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.117
+[2015.04.24-13.31.49:172][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035BA71A0
+[2015.04.24-13.31.51:279][ 72]Cmd: SELECT NONE
+[2015.04.24-13.31.55:007][200]LogTexture:Display: Building textures: Texture2D_5 (G8)
+[2015.04.24-13.32.18:527][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.04.24-13.32.31:834][143]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.32.31:834][143]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:32:31 PM)
+[2015.04.24-13.32.31:846][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002949s)
+[2015.04.24-13.32.31:846][143]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2015.04.24-13.32.31:846][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003540s)
+[2015.04.24-13.32.31:879][143]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.32.31:882][143]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.32.31:884][143]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.32.31
+[2015.04.24-13.32.31:884][143]LogWorld: Bringing up level for play took: 0.002224
+[2015.04.24-13.32.31:887][143]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.417
+[2015.04.24-13.32.42:735][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000138A14E0
+[2015.04.24-13.32.49:440][851]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.32.49:441][851]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:32:49 PM)
+[2015.04.24-13.32.49:444][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003305s)
+[2015.04.24-13.32.49:445][851]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2015.04.24-13.32.49:445][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003918s)
+[2015.04.24-13.32.49:481][851]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.32.49:483][851]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.32.49:485][851]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.32.49
+[2015.04.24-13.32.49:486][851]LogWorld: Bringing up level for play took: 0.002251
+[2015.04.24-13.32.49:489][851]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.019
+[2015.04.24-13.32.51:922][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034FB0F40
+[2015.04.24-13.33.14:020][726]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.04.24-13.33.29:074][236]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.33.29:075][236]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:33:29 PM)
+[2015.04.24-13.33.29:088][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002837s)
+[2015.04.24-13.33.29:089][236]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2015.04.24-13.33.29:089][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003393s)
+[2015.04.24-13.33.29:119][236]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.33.29:121][236]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.33.29:123][236]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.33.29
+[2015.04.24-13.33.29:124][236]LogWorld: Bringing up level for play took: 0.002552
+[2015.04.24-13.33.29:127][236]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.345
+[2015.04.24-13.33.30:602][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034FD9760
+[2015.04.24-13.33.32:787][373]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.04.24-13.33.32:829][373]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2015.04.24-13.33.34:099][431]Cmd: TRANSACTION UNDO
+[2015.04.24-13.33.34:099][431]LogEditorTransaction: Undo Delete selection
+[2015.04.24-13.33.34:831][447]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.04.24-13.34.13:163][785]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.24-13.34.13:169][785]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.24-13.34.13:332][785]LogPlayLevel: PIE:  Blueprint regeneration took 169 ms (1 blueprints)
+[2015.04.24-13.34.13:332][785]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:34:13 PM)
+[2015.04.24-13.34.13:336][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002871s)
+[2015.04.24-13.34.13:336][785]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2015.04.24-13.34.13:336][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003468s)
+[2015.04.24-13.34.13:369][785]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.34.13:371][785]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.34.13:373][785]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.34.13
+[2015.04.24-13.34.13:374][785]LogWorld: Bringing up level for play took: 0.002513
+[2015.04.24-13.34.13:377][785]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.095
+[2015.04.24-13.34.16:575][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018584860
+[2015.04.24-13.34.29:263][377]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.04.24-13.34.29:548][388]Cmd: DELETE
+[2015.04.24-13.34.29:548][388]Cmd: ACTOR DELETE
+[2015.04.24-13.34.29:548][388]LogEditorActor: Deleted Actor: SkyLight
+[2015.04.24-13.34.29:576][388]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.04.24-13.34.53:136][140]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.34.53:136][140]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:34:53 PM)
+[2015.04.24-13.34.53:151][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002842s)
+[2015.04.24-13.34.53:152][140]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2015.04.24-13.34.53:152][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.003492s)
+[2015.04.24-13.34.53:188][140]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.34.53:190][140]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.34.53:193][140]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.34.53
+[2015.04.24-13.34.53:193][140]LogWorld: Bringing up level for play took: 0.002598
+[2015.04.24-13.34.53:196][140]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.276
+[2015.04.24-13.34.59:120][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038C4F420
+[2015.04.24-13.35.13:299][794]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.35.13:299][794]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:35:13 PM)
+[2015.04.24-13.35.13:305][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004270s)
+[2015.04.24-13.35.13:305][794]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2015.04.24-13.35.13:306][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.005098s)
+[2015.04.24-13.35.13:341][794]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.35.13:344][794]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.35.13:347][794]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.35.13
+[2015.04.24-13.35.13:348][794]LogWorld: Bringing up level for play took: 0.003543
+[2015.04.24-13.35.13:352][794]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.121
+[2015.04.24-13.35.25:562][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034FB39C0
+[2015.04.24-13.35.26:242][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.04.24-13.35.34:087][458]MapCheck: New page: Map Check
+[2015.04.24-13.35.34:151][458]LightingResults: New page: Lighting Build - Apr 24, 2015, 5:35:34 PM
+[2015.04.24-13.35.48:972][458]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.04.24-13.35.48:972][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-13.35.48:972][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-13.35.48:972][458]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-13.35.48:972][458]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-13.35.48:972][458]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-13.35.49:484][458]LogEditorBuildUtils: Build time 0:00:15
+[2015.04.24-13.35.49:488][458]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.04.24-13.35.49:511][458]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.04.24-13.36.08:933][938]Job is a success!
+[2015.04.24-13.36.09:877][939]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.24-13.36.10:421][939]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.24-13.36.10:424][939]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.24-13.36.10:438][939]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.24-13.36.11:078][939]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.04.24-13.36.11:585][939]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.04.24-13.36.11:670][939]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.04.24-13.36.12:028][939]Lightmass on NIK-PC: 19.0 sec total, 161 ms importing, 0 ms setup, 1.40 sec photons, 17.4 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 1:09 min total, 27.2 sec processing.
+[2015.04.24-13.36.12:072][939]LogStaticLightingSystem: Illumination: 37.8 sec (2.05 sec encoding lightmaps)
+[2015.04.24-13.36.12:072][939]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-13.36.12:072][939]LogStaticLightingSystem: Shadowmap texture memory: 21.4 MB (0.0 MB streaming, 21.3 MB non-streaming), 3 textures
+[2015.04.24-13.36.12:980][940]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-13.36.12:980][940]MapCheck: New page: Untitled_1 - Apr 24, 2015, 5:36:12 PM
+[2015.04.24-13.36.13:175][940]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 195.559ms to complete.
+[2015.04.24-13.36.35:933][778]LogTexture:Display: Building textures: Texture2D_6 (G8)
+[2015.04.24-13.37.46:702][381]LogEditorViewport: Clicking Background
+[2015.04.24-13.37.48:607][449]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.37.48:607][449]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:37:48 PM)
+[2015.04.24-13.37.48:632][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015152s)
+[2015.04.24-13.37.48:633][449]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2015.04.24-13.37.48:633][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.015819s)
+[2015.04.24-13.37.48:667][449]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.37.48:669][449]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.37.48:671][449]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.37.48
+[2015.04.24-13.37.48:672][449]LogWorld: Bringing up level for play took: 0.002792
+[2015.04.24-13.37.48:676][449]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.798
+[2015.04.24-13.37.59:730][888]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F865DA0
+[2015.04.24-13.38.13:698][975]LogSavePackage: Save=248.052643ms
+[2015.04.24-13.38.13:698][975]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Untitled_1_Auto1490CD64840057CECDDC4B38D88DA9817.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2015.04.24-13.38.13:708][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.333
+[2015.04.24-13.38.13:708][975]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.333
+[2015.04.24-13.38.13:741][975]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.04.24-13.38.13:793][975]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.04.24-13.38.13:793][975]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.04.24-13.38.14:286][975]LogSavePackage: Save=483.940674ms
+[2015.04.24-13.38.14:288][975]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonCharacter_Auto1C875536745171A3DF96383A43CBE4E29.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2015.04.24-13.38.14:295][975]LogFileHelpers: Auto-saving content packages took 0.587
+[2015.04.24-13.39.18:595][279]MapCheck: New page: Map Check
+[2015.04.24-13.39.18:621][279]LightingResults: New page: Lighting Build - Apr 24, 2015, 5:39:18 PM
+[2015.04.24-13.39.23:162][279]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-13.39.23:162][279]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-13.39.23:162][279]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-13.39.23:162][279]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-13.39.23:162][279]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-13.39.23:285][279]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-13.39.23:296][280]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.24-13.39.43:656][407]Job is a success!
+[2015.04.24-13.39.44:706][408]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.24-13.39.44:958][408]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.24-13.39.44:962][408]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.24-13.39.44:977][408]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.04.24-13.39.45:567][408]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.04.24-13.39.45:682][408]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.04.24-13.39.45:726][408]Lightmass on NIK-PC: 21.7 sec total, 97 ms importing, 0 ms setup, 235 ms photons, 21.4 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 1:25 min total, 26.2 sec processing.
+[2015.04.24-13.39.45:743][408]LogStaticLightingSystem: Illumination: 26.7 sec (1.27 sec encoding lightmaps)
+[2015.04.24-13.39.45:743][408]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-13.39.45:743][408]LogStaticLightingSystem: Shadowmap texture memory: 32.1 MB (0.1 MB streaming, 32.0 MB non-streaming), 5 textures
+[2015.04.24-13.39.46:156][409]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-13.39.46:157][409]MapCheck: New page: Untitled_1 - Apr 24, 2015, 5:39:46 PM
+[2015.04.24-13.39.46:334][409]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 177.422ms to complete.
+[2015.04.24-13.39.53:323][498]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.39.53:323][498]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:39:53 PM)
+[2015.04.24-13.39.53:328][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003633s)
+[2015.04.24-13.39.53:329][498]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2015.04.24-13.39.53:329][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.004263s)
+[2015.04.24-13.39.53:363][498]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.39.53:365][498]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.39.53:368][498]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.39.53
+[2015.04.24-13.39.53:368][498]LogWorld: Bringing up level for play took: 0.002712
+[2015.04.24-13.39.53:372][498]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.105
+[2015.04.24-13.40.07:541][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038C4DA80
+[2015.04.24-13.40.22:733][609]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.40.22:733][609]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:40:22 PM)
+[2015.04.24-13.40.22:746][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003481s)
+[2015.04.24-13.40.22:747][609]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2015.04.24-13.40.22:747][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.004069s)
+[2015.04.24-13.40.22:781][609]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.40.22:783][609]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.40.22:786][609]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.40.22
+[2015.04.24-13.40.22:786][609]LogWorld: Bringing up level for play took: 0.002814
+[2015.04.24-13.40.22:790][609]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.686
+[2015.04.24-13.40.25:954][732]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013858680
+[2015.04.24-13.41.41:487][282]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.24-13.48.34:801][947]LogSavePackage: Save=150.425613ms
+[2015.04.24-13.48.34:801][947]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Untitled_1_Auto274B1DE474B93D14EEB626DBCF40BB3CC.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2015.04.24-13.48.34:811][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.274
+[2015.04.24-13.48.34:811][947]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.274
+[2015.04.24-13.52.16:501][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.52.18:126][700]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.24-13.52.18:600][711]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.52.20:193][734]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.24-13.52.20:644][746]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.52.22:561][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Blueprints'
+[2015.04.24-13.52.23:515][792]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.04.24-13.52.24:554][805]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.52.25:997][825]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Maps'
+[2015.04.24-13.52.26:605][840]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.52.30:800][902]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.24-13.52.31:536][921]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP'
+[2015.04.24-13.52.31:939][933]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Animations'
+[2015.04.24-13.52.58:280][508]MapCheck: New page: Map Check
+[2015.04.24-13.52.58:340][508]LightingResults: New page: Lighting Build - Apr 24, 2015, 5:52:58 PM
+[2015.04.24-13.53.02:891][508]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-13.53.02:891][508]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-13.53.02:891][508]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-13.53.02:891][508]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-13.53.02:891][508]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-13.53.03:022][508]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-13.53.03:032][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.24-13.53.22:897][713]Job is a success!
+[2015.04.24-13.53.23:948][714]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.24-13.53.24:194][714]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.24-13.53.24:200][714]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.24-13.53.24:212][714]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.24-13.53.24:792][714]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.04.24-13.53.24:906][714]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.04.24-13.53.24:948][714]Lightmass on NIK-PC: 21.5 sec total, 102 ms importing, 0 ms setup, 225 ms photons, 21.2 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 1:24 min total, 25.6 sec processing.
+[2015.04.24-13.53.24:963][714]LogStaticLightingSystem: Illumination: 26.2 sec (1.25 sec encoding lightmaps)
+[2015.04.24-13.53.24:963][714]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-13.53.24:963][714]LogStaticLightingSystem: Shadowmap texture memory: 42.8 MB (0.1 MB streaming, 42.7 MB non-streaming), 7 textures
+[2015.04.24-13.53.25:891][715]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-13.53.25:891][715]MapCheck: New page: Untitled_1 - Apr 24, 2015, 5:53:25 PM
+[2015.04.24-13.53.26:089][715]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 197.908ms to complete.
+[2015.04.24-13.54.57:029][ 77]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Character'
+[2015.04.24-13.54.59:449][143]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ThirdPersonBP/Meshes'
+[2015.04.24-13.55.22:713][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.04.24-13.55.33:472][313]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.04.24-13.55.57:232][188]Cmd: TRANSACTION UNDO
+[2015.04.24-13.55.57:232][188]LogEditorTransaction: Undo Move Actors
+[2015.04.24-13.55.57:313][188]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.NewWorld:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2015.04.24-13.56.24:965][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.04.24-13.56.33:118][311]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.24-13.56.33:126][311]LogPlayLevel: [PIE] Compiling ThirdPersonCharacter before PIE...
+[2015.04.24-13.56.33:300][311]LogPlayLevel: PIE:  Blueprint regeneration took 182 ms (1 blueprints)
+[2015.04.24-13.56.33:300][311]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:56:33 PM)
+[2015.04.24-13.56.33:307][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005867s)
+[2015.04.24-13.56.33:307][311]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.04.24-13.56.33:307][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006541s)
+[2015.04.24-13.56.33:339][311]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.56.33:341][311]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.56.33:343][311]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.56.33
+[2015.04.24-13.56.33:344][311]LogWorld: Bringing up level for play took: 0.002747
+[2015.04.24-13.56.33:347][311]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.141
+[2015.04.24-13.56.45:501][795]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BCBC9A0
+[2015.04.24-13.57.37:668][589]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.04.24-13.58.10:586][684]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-13.58.10:586][684]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 5:58:10 PM)
+[2015.04.24-13.58.10:602][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006111s)
+[2015.04.24-13.58.10:603][684]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2015.04.24-13.58.10:603][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006781s)
+[2015.04.24-13.58.10:637][684]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-13.58.10:639][684]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-13.58.10:642][684]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-15.58.10
+[2015.04.24-13.58.10:643][684]LogWorld: Bringing up level for play took: 0.003504
+[2015.04.24-13.58.10:647][684]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.842
+[2015.04.24-13.58.12:865][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000210DBA60
+[2015.04.24-13.58.14:666][829]MapCheck: New page: Map Check
+[2015.04.24-13.58.14:705][829]LightingResults: New page: Lighting Build - Apr 24, 2015, 5:58:14 PM
+[2015.04.24-13.58.19:251][829]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-13.58.19:251][829]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-13.58.19:251][829]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-13.58.19:251][829]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-13.58.19:251][829]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-13.58.19:383][829]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-13.58.29:280][ 45]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.04.24-13.58.35:804][254]MapCheck: New page: Map Check
+[2015.04.24-13.58.35:846][254]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.24-13.58.39:506][365]Job is a success!
+[2015.04.24-13.58.40:243][366]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.24-13.58.40:510][366]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.24-13.58.40:513][366]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.24-13.58.40:522][366]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.04.24-13.58.41:124][366]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.04.24-13.58.41:216][366]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.04.24-13.58.41:245][366]Lightmass on NIK-PC: 21.3 sec total, 101 ms importing, 0 ms setup, 222 ms photons, 21.0 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 1:24 min total, 26.3 sec processing.
+[2015.04.24-13.58.41:261][366]LogStaticLightingSystem: Illumination: 26.4 sec (1.27 sec encoding lightmaps)
+[2015.04.24-13.58.41:261][366]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-13.58.41:261][366]LogStaticLightingSystem: Shadowmap texture memory: 53.5 MB (0.2 MB streaming, 53.3 MB non-streaming), 9 textures
+[2015.04.24-13.58.42:247][367]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-13.58.42:247][367]MapCheck: New page: Untitled_1 - Apr 24, 2015, 5:58:42 PM
+[2015.04.24-13.58.42:247][367]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 10 unnecessary materal references 
+[2015.04.24-13.58.42:266][367]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2015.04.24-13.58.42:437][367]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 190.355ms to complete.
+[2015.04.24-13.58.51:767][647]MapCheck: New page: Map Check
+[2015.04.24-13.58.51:797][647]LightingResults: New page: Lighting Build - Apr 24, 2015, 5:58:51 PM
+[2015.04.24-13.58.56:340][647]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-13.58.56:340][647]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-13.58.56:340][647]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-13.58.56:340][647]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-13.58.56:340][647]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-13.58.56:410][647]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-13.58.56:917][648]LogSavePackage: Save=197.453812ms
+[2015.04.24-13.58.56:917][648]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Untitled_1_Auto3F1B5FE2944D6F6029D37C9852281AE7B.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2015.04.24-13.58.56:982][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.442
+[2015.04.24-13.58.56:982][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.442
+[2015.04.24-13.58.57:024][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2015.04.24-13.58.57:091][648]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2015.04.24-13.58.57:091][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2015.04.24-13.58.57:581][648]LogSavePackage: Save=480.258057ms
+[2015.04.24-13.58.57:583][648]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonCharacter_Auto3CD47241346AF19C24BFBE3A158D5D0A6.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2015.04.24-13.58.57:590][648]LogFileHelpers: Auto-saving content packages took 0.608
+[2015.04.24-13.58.57:592][648]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.24-13.59.17:539][130]Job is a success!
+[2015.04.24-13.59.18:591][131]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.24-13.59.18:837][131]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.24-13.59.18:842][131]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.24-13.59.18:851][131]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.24-13.59.19:431][131]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.04.24-13.59.19:547][131]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.04.24-13.59.19:591][131]Lightmass on NIK-PC: 21.4 sec total, 100 ms importing, 0 ms setup, 225 ms photons, 21.1 sec processing, 0 ms extra exporting [49/49 mappings]. Threads: 1:24 min total, 26.3 sec processing.
+[2015.04.24-13.59.19:609][131]LogStaticLightingSystem: Illumination: 27.4 sec (1.25 sec encoding lightmaps)
+[2015.04.24-13.59.19:609][131]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-13.59.19:609][131]LogStaticLightingSystem: Shadowmap texture memory: 64.2 MB (0.2 MB streaming, 64.0 MB non-streaming), 11 textures
+[2015.04.24-13.59.20:333][132]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-13.59.20:333][132]MapCheck: New page: Untitled_1 - Apr 24, 2015, 5:59:20 PM
+[2015.04.24-13.59.20:333][132]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 10 unnecessary materal references 
+[2015.04.24-13.59.20:511][132]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 177.497ms to complete.
+[2015.04.24-14.00.14:372][533]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.04.24-14.00.30:322][ 80]MapCheck: New page: Map Check
+[2015.04.24-14.00.30:387][ 80]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.24-14.00.30:388][ 80]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.24-14.00.30:415][ 80]LogEditorServer: Cleared 10 NULL BSP materials after rebuild.
+[2015.04.24-14.00.30:415][ 80]LightingResults: New page: Lighting Build - Apr 24, 2015, 6:00:30 PM
+[2015.04.24-14.00.34:953][ 80]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-14.00.34:953][ 80]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-14.00.34:953][ 80]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-14.00.34:953][ 80]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-14.00.34:953][ 80]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-14.00.35:026][ 80]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-14.00.54:746][204]Job is a success!
+[2015.04.24-14.00.55:829][205]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.24-14.00.56:075][205]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.24-14.00.56:080][205]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.24-14.00.56:093][205]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.24-14.00.56:698][205]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.04.24-14.00.56:784][205]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.04.24-14.00.56:812][205]Lightmass on NIK-PC: 21.4 sec total, 100 ms importing, 0 ms setup, 248 ms photons, 21.0 sec processing, 0 ms extra exporting [48/48 mappings]. Threads: 1:24 min total, 25.9 sec processing.
+[2015.04.24-14.00.56:820][205]LogStaticLightingSystem: Illumination: 26.0 sec (1.24 sec encoding lightmaps)
+[2015.04.24-14.00.56:820][205]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-14.00.56:820][205]LogStaticLightingSystem: Shadowmap texture memory: 74.9 MB (0.3 MB streaming, 74.7 MB non-streaming), 13 textures
+[2015.04.24-14.00.56:950][206]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-14.00.56:950][206]MapCheck: New page: Untitled_1 - Apr 24, 2015, 6:00:56 PM
+[2015.04.24-14.00.57:121][206]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 171.206ms to complete.
+[2015.04.24-14.02.10:061][542]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-14.02.10:061][542]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 6:02:10 PM)
+[2015.04.24-14.02.10:067][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005530s)
+[2015.04.24-14.02.10:067][542]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2015.04.24-14.02.10:067][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006218s)
+[2015.04.24-14.02.10:099][542]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-14.02.10:101][542]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-14.02.10:104][542]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-16.02.10
+[2015.04.24-14.02.10:105][542]LogWorld: Bringing up level for play took: 0.003380
+[2015.04.24-14.02.10:108][542]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.617
+[2015.04.24-14.02.17:692][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034FDA0C0
+[2015.04.24-14.02.21:931][ 12]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.04.24-14.05.30:190][851]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.04.24-14.05.50:856][427]LogEditorActor: Deleted Actor: SpotLight
+[2015.04.24-14.05.50:912][427]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2015.04.24-14.07.07:539][601]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-14.07.07:539][601]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 6:07:07 PM)
+[2015.04.24-14.07.07:545][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006044s)
+[2015.04.24-14.07.07:546][601]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2015.04.24-14.07.07:546][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006755s)
+[2015.04.24-14.07.07:581][601]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-14.07.07:583][601]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-14.07.07:586][601]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-16.07.07
+[2015.04.24-14.07.07:587][601]LogWorld: Bringing up level for play took: 0.003718
+[2015.04.24-14.07.07:590][601]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.095
+[2015.04.24-14.07.15:137][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028FCEE80
+[2015.04.24-14.07.26:257][153]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-14.07.26:258][153]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 6:07:26 PM)
+[2015.04.24-14.07.26:277][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006170s)
+[2015.04.24-14.07.26:278][153]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2015.04.24-14.07.26:278][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006825s)
+[2015.04.24-14.07.26:314][153]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-14.07.26:316][153]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-14.07.26:319][153]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-16.07.26
+[2015.04.24-14.07.26:320][153]LogWorld: Bringing up level for play took: 0.003473
+[2015.04.24-14.07.26:323][153]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.828
+[2015.04.24-14.07.38:576][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000259D58A0
+[2015.04.24-14.07.44:145][683]MapCheck: New page: Map Check
+[2015.04.24-14.07.44:220][683]LightingResults: New page: Lighting Build - Apr 24, 2015, 6:07:44 PM
+[2015.04.24-14.07.48:766][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.24-14.07.48:766][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.24-14.07.48:766][683]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.24-14.07.48:766][683]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.24-14.07.48:766][683]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.24-14.07.48:916][683]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.24-14.08.15:982][765]Job is a success!
+[2015.04.24-14.08.17:111][766]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.24-14.08.17:377][766]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.24-14.08.17:384][766]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.24-14.08.17:399][766]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.04.24-14.08.17:964][766]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.04.24-14.08.18:091][766]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.04.24-14.08.18:133][766]Lightmass on NIK-PC: 28.8 sec total, 96 ms importing, 0 ms setup, 294 ms photons, 28.4 sec processing, 0 ms extra exporting [48/48 mappings]. Threads: 1:53 min total, 33.5 sec processing.
+[2015.04.24-14.08.18:151][766]LogStaticLightingSystem: Illumination: 33.5 sec (1.30 sec encoding lightmaps)
+[2015.04.24-14.08.18:151][766]LogStaticLightingSystem: Lightmap texture memory:  5.4 MB (0.0 MB streaming, 5.3 MB non-streaming), 4 textures
+[2015.04.24-14.08.18:151][766]LogStaticLightingSystem: Shadowmap texture memory: 85.6 MB (0.3 MB streaming, 85.3 MB non-streaming), 15 textures
+[2015.04.24-14.08.18:765][767]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.24-14.08.18:765][767]MapCheck: New page: Untitled_1 - Apr 24, 2015, 6:08:18 PM
+[2015.04.24-14.08.18:935][767]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 169.968ms to complete.
+[2015.04.24-14.09.33:309][989]LogSavePackage: Save=158.999374ms
+[2015.04.24-14.09.33:309][989]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Untitled_1_Auto4939406014D74814F5AF11A9E6C6AB8AA.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2015.04.24-14.09.33:315][989]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.233
+[2015.04.24-14.09.33:315][989]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.233
+[2015.04.24-14.12.15:109][328]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-14.12.15:110][328]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 6:12:15 PM)
+[2015.04.24-14.12.15:126][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005985s)
+[2015.04.24-14.12.15:127][328]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2015.04.24-14.12.15:127][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.006680s)
+[2015.04.24-14.12.15:159][328]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-14.12.15:161][328]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-14.12.15:165][328]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-16.12.15
+[2015.04.24-14.12.15:166][328]LogWorld: Bringing up level for play took: 0.004399
+[2015.04.24-14.12.15:170][328]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.329
+[2015.04.24-14.12.20:767][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002986AE80
+[2015.04.24-14.13.33:438][938]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.24-14.13.33:439][938]PIE: New page: PIE session: Untitled_1 (Apr 24, 2015, 6:13:33 PM)
+[2015.04.24-14.13.33:456][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017032s)
+[2015.04.24-14.13.33:457][938]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2015.04.24-14.13.33:457][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.NewWorld to /Temp/UEDPIE_0_Untitled_1.NewWorld (0.017803s)
+[2015.04.24-14.13.33:495][938]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.24-14.13.33:497][938]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.24-14.13.33:504][938]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.NewWorld up for play (max tick rate 0) at 2015.04.24-16.13.33
+[2015.04.24-14.13.33:506][938]LogWorld: Bringing up level for play took: 0.007758
+[2015.04.24-14.13.33:511][938]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.011
+[2015.04.24-14.13.46:432][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013925580
+[2015.04.24-14.13.58:918][850]Cmd: DELETE
+[2015.04.24-14.13.58:918][850]Cmd: ACTOR DELETE
+[2015.04.24-14.13.58:919][850]LogEditorActor: Deleted Actor: DecalActor
+[2015.04.24-14.13.58:952][850]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2015.04.24-14.14.12:262][902]LogSavePackage: Save=163.394791ms
+[2015.04.24-14.14.12:262][902]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/Testmap2E564B7F4AD3ACA89A67CD974C7E0370.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Maps/Testmap.umap'
+[2015.04.24-14.14.12:340][902]LogFileHelpers: Saving map 'Testmap' took 0.929
+[2015.04.24-14.14.12:492][902]LogSavePackage: Save=126.804832ms
+[2015.04.24-14.14.12:492][902]LogSavePackage: Moving '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Saved/ThirdPersonCharacter5242BD1946FAF566BBAE31AEF4A1025E.tmp' to '../../../../../../Users/Niklas/Documents/Unreal Projects/EZ_GAME_EZ_LIFE/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2015.04.24-14.14.19:202][120]LogEditorViewport: Clicking Background
+[2015.04.24-14.14.49:055][583]Cmd: QUIT_EDITOR
+[2015.04.24-14.14.49:480][583]LogExit: Preparing to exit.
+[2015.04.24-14.14.50:099][583]LogExit: Editor shut down
+[2015.04.24-14.14.50:099][583]LogExit: Transaction tracking system shut down
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000183E1580
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003771D760
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037627060
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037626B60
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000158D9940
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F976160
+[2015.04.24-14.14.50:102][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA0AC00
+[2015.04.24-14.14.50:103][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA09620
+[2015.04.24-14.14.50:104][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F9772E0
+[2015.04.24-14.14.50:104][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015EFC0E0
+[2015.04.24-14.14.50:854][583]LogExit: Object subsystem successfully closed.
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module NewLevelDialog (179)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module SynthBenchmark (178)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.24-14.14.51:384][583]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.24-14.14.51:403][583]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.24-14.14.51:403][583]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.24-14.14.51:404][583]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.24-14.14.51:431][583]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.24-14.14.51:435][583]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.24-14.14.51:486][583]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.24-14.14.51:486][583]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.24-14.14.51:486][583]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.24-14.14.51:505][583]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.24-14.14.51:520][583]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.24-14.14.51:770][583]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.24-14.14.51:770][583]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.24-14.14.51:770][583]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.24-14.14.51:774][583]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.24-14.14.51:774][583]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.24-14.14.51:792][583]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.24-14.14.51:792][583]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.24-14.14.51:801][583]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.24-14.14.51:811][583]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.24-14.14.51:822][583]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.24-14.14.51:822][583]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.24-14.14.51:822][583]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.24-14.14.51:839][583]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.24-14.14.51:846][583]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.24-14.14.51:855][583]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.24-14.14.51:961][583]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.24-14.14.51:961][583]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.24-14.14.51:961][583]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.24-14.14.51:961][583]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.24-14.14.52:046][583]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.24-14.14.52:116][583]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.24-14.14.52:157][583]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.24-14.14.52:213][583]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.24-14.14.52:213][583]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.24-14.14.52:214][583]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.24-14.14.52:214][583]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.24-14.14.52:214][583]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.24-14.14.52:259][583]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.24-14.14.52:367][583]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.24-14.14.52:367][583]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.24-14.14.52:404][583]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.24-14.14.52:404][583]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.24-14.14.52:438][583]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.24-14.14.52:438][583]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.24-14.14.52:439][583]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.24-14.14.52:439][583]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.24-14.14.52:439][583]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.24-14.14.52:472][583]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.24-14.14.52:472][583]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.24-14.14.52:504][583]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.24-14.14.52:766][583]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.24-14.14.52:777][583]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.24-14.14.52:777][583]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.24-14.14.52:777][583]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.24-14.14.52:777][583]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.24-14.14.52:790][583]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.24-14.14.52:803][583]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.24-14.14.52:809][583]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.24-14.14.52:809][583]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.24-14.14.52:814][583]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.24-14.14.52:814][583]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.24-14.14.52:827][583]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.24-14.14.52:853][583]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.24-14.14.52:853][583]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.24-14.14.52:853][583]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.24-14.14.52:853][583]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.24-14.14.52:853][583]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.24-14.14.52:871][583]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.24-14.14.52:883][583]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.24-14.14.52:900][583]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.24-14.14.52:914][583]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.24-14.14.52:914][583]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.24-14.14.52:914][583]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.24-14.14.52:914][583]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.24-14.14.52:915][583]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.24-14.14.52:939][583]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.24-14.14.52:950][583]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.24-14.14.53:050][583]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.24-14.14.53:100][583]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.24-14.14.53:102][583]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.24-14.14.53:102][583]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.24-14.14.53:130][583]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.24-14.14.53:130][583]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.24-14.14.53:130][583]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.24-14.14.53:232][583]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.24-14.14.53:232][583]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.24-14.14.53:261][583]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.24-14.14.53:262][583]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.24-14.14.53:262][583]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.24-14.14.53:426][583]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.24-14.14.53:542][583]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.24-14.14.53:590][583]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.24-14.14.53:620][583]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.24-14.14.53:620][583]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.24-14.14.53:629][583]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.24-14.14.53:671][583]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.24-14.14.53:739][583]LogDerivedDataCache: Shutdown
+[2015.04.24-14.14.53:739][583]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.24-14.14.53:776][583]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.24-14.14.53:776][583]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.24-14.14.53:814][583]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.24-14.14.53:844][583]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.24-14.14.53:907][583]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.24-14.14.53:934][583]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.24-14.14.53:934][583]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.24-14.14.53:934][583]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.24-14.14.53:984][583]LogExit: Exiting.
+[2015.04.24-14.14.54:006][583]Log file closed, 04/24/15 16:14:54
